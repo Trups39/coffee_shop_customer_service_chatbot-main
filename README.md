@@ -2,29 +2,27 @@
 
 # Coffee Shop Customer Service Chatbot 🚀☕️
 
-Welcome to the Coffee Shop Customer Service Chatbot project! This repository contains the code, resources, and instructions to build an AI-powered chatbot designed to enhance customer experiences in a coffee shop app. Leveraging the power of LLMs (Large Language models), Natural Language Processing (NLP), and RunPod's infrastructure, this chatbot can assist with taking orders, answering detailed menu queries, and providing personalized product recommendations—all within a React Native mobile app.
+An AI-powered chatbot designed to enhance customer experiences in a coffee shop app. Leveraging the power of LLMs (Large Language models), Natural Language Processing (NLP), and RunPod's infrastructure, this chatbot can assist with taking orders, answering detailed menu queries, and providing personalized product recommendations—all within a React Native mobile app.
 
 # 🎯 Project Overview
-The goal of this project is to create a smart, **agent-based chatbot** that can:
-* Handle real-time customer interactions with the chatbot including orders.
-* Answer questions about menu items, including ingredients and allergens through a **Retreival augmented Generation (RAG) system**.
-* Provide personalized product recommendations through a **market basket analysis recommendation engine**.
-* Guide customers through a seamless order process, ensuring accurate and structured order details.
-* Block irrelevant or harmful queries using a Guard Agent for safe and relevant interactions.
+The objective of this project is to develop an intelligent **agent-based chatbot** capable of:
+- Managing real-time customer interactions, including processing orders.
+- Providing detailed menu item information such as ingredients and allergens through a **Retrieval-Augmented Generation (RAG) system**.
+- Offering personalized product suggestions using a **market basket analysis recommendation engine**.
+- Guiding customers through a smooth order process with clear and accurate order details.
+- Filtering irrelevant or harmful queries using a Guard Agent to ensure safe and relevant conversations.
 
-## 🔧 What You'll Learn
-Through this project, you will gain hands-on experience in:
-* Deploying your personal LLM with RunPod
-* Deploying an agent-based system with specialized agents like Order Taking, Details, and Guard agents.
-* Setting up a vector database for storing coffee shop menu and product information.
-* Implementing Retrieval-Augmented Generation (RAG) for detailed and accurate responses.
-* Training and deploying a recommendation engine.
-* Building a React Native app that integrates this powerful chatbot.
+Key components include:
+- Deploying a personal LLM with RunPod.
+- Building an agent-based system featuring specialized agents like Order Taking, Details, and Guard agents.
+- Setting up a vector database to store coffee shop menu and product information.
+- Implementing Retrieval-Augmented Generation (RAG) to deliver precise, context-driven responses.
+- Developing and deploying a recommendation engine for product suggestions.
+- Creating a React Native app that seamlessly integrates the chatbot into the customer experience.
+
 
 ## 🧠 Chatbot Agent Architecture
 ![Coffee Shop Agent Architecture](./images/chatbot_agent_architecture.jpg)
-
-The chatbot in this project is designed using a modular agent-based architecture, where each agent is responsible for a specific task, ensuring a seamless and efficient interaction between the user and the coffee shop’s services. This architecture enables the chatbot to perform complex actions by delegating tasks to specialized agents, making the system highly flexible, scalable, and easy to extend.
 
 ### 🤖 Key Agents in the System:
 1. **Guard Agent:**
@@ -75,17 +73,4 @@ The React Native Coffee Shop App serves as the front-end interface for customers
 │       ├── recommendation_engine_training.ipynb    # Trains recommendation engine 
 ```
 
-## 🚀 Getting Started
-Each folder has their own getting started section. So this way we can deploy the front end, backend and setup individually. 
-
-## 🔗 Refrence Links
-* [RunPod](https://rebrand.ly/Runpod-Abdullah): RunPod Official Site - Infrastructure for deploying and scaling machine learning models.
-* [Kaggle Dataset](https://www.kaggle.com/datasets/ylchang/): Source of the dataset used for training the recommendation engine.
-* [Figma app design](https://www.figma.com/design/PKEMJtsntUgQcN5xAIelkx/Coffee-Shop-Mobile-App-Design-(Community)?node-id=421-1221&node-type=FRAME&t=bakGV2g59KQ7cPBi-0): - The design mockups for the coffee shop app, providing a visual guide for the user interface and experience.
-* [Hugging Face](https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct): Hugging Face Models - Repository for Llama LLms, a state-of-the-art NLP model used in our chatbot.
-* [Pinecone](https://docs.pinecone.io/guides/get-started/quickstart): Pinecone Documentation - Documentation for the vector database used in the project.
-* [Firebase](https://firebase.google.com/docs): Firebase Documentation - Comprehensive guide for using Firebase to manage app data for the coffee shop app.
-
-# coffee_shop_customer_service_chatbot-main
-AI-powered chatbot
 
